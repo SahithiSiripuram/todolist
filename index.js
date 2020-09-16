@@ -9,7 +9,6 @@ $(document).ready(function(){
 
         var box = document.createElement('input');
         box.type = "checkbox";
-        toDoInput.value = "";
         textCol.innerHTML=txt;
 
         var btn = document.createElement("button");
