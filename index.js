@@ -35,5 +35,6 @@ $(document).ready(function(){
         newRow.appendChild(btnCol);
 
         document.querySelector("#myTable").appendChild(newRow);
+        document.querySelector("#activity").value = ""
     });
 });
